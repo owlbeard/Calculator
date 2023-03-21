@@ -14,7 +14,7 @@ h1 {
   flex-direction: column;
   width: 400px;
   height: 564px;
-  background-color: #AAAAAA;
+  background-color: #F0ECCF;
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 8px;
@@ -27,7 +27,7 @@ h1 {
   height: 135px;
   border: 2px solid black;
   border-radius: 8px;
-  background-color: white;
+  background-color: #E8F3D6;
   margin: 20px 0;
   margin-left: 22px;
   justify-content: flex-end;
@@ -80,15 +80,27 @@ button {
 #clear {
   width: 167px;
   height: 64px;
-  background-color: #FFAAAA;
+  background-color: #A3BB98;
   font-size: 22px;
 }
 
 #delete {
   width: 167px;
   height: 64px;
-  background-color: #AAAAFF;
+  background-color: #E8F3D6;
   font-size: 22px;
   margin-right: 8px;
   margin-left: 1px;
+}
+
+.symbol {
+  background-color: #FFB100;
+}
+
+#point {
+  background-color: #E8F3D6;
+}
+
+#equate {
+  background-color: #FFB100;
 }
