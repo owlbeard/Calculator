@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+
+body {
+  font-family: "Rajdhani";
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 564px;
+  background-color: #AAAAAA;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  width: 347px;
+  height: 135px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  margin: 20px 0;
+  margin-left: 22px;
+  justify-content: flex-end;
+  align-items: end;
+  gap: 8px;
+}
+
+#equation {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+#equals {
+  margin-right: 20px;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  border-radius: 8px;
+  width: 404px;
+  height: 64;
+  margin-bottom: 12px;
+  margin-left: 1px;
+  justify-content: center;
+  gap: 16px;
+}
+
+.numbers {
+  display: flex;
+  border-radius: 8px;
+  width: 356px;
+  height: 380px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 22px;
+}
+
+button {
+  width: 77.5px;
+  height: 64px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 24px;
+  font-family: "Rajdhani";
+}
+
+#clear {
+  width: 167px;
+  height: 64px;
+  background-color: #FFAAAA;
+  font-size: 22px;
+}
+
+#delete {
+  width: 167px;
+  height: 64px;
+  background-color: #AAAAFF;
+  font-size: 22px;
+  margin-right: 8px;
+  margin-left: 1px;
+}
